@@ -76,6 +76,7 @@ if [ -z "$SKIP_CREATE_INSTANCE" ]; then
     --amazonec2-access-key $AWS_ACCESS_KEY_ID \
     --amazonec2-secret-key $AWS_ACCESS_SECRET_KEY \
     --amazonec2-region $AWS_DEFAULT_REGION \
+    --amazonec2-ami $AWS_AMI \
     --amazonec2-instance-type $AWS_INSTANCE_TYPE \
     --amazonec2-vpc-id $AWS_VPC_ID \
     --amazonec2-ssh-keypath ~/.ssh/id_rsa \
