@@ -18,6 +18,7 @@ Environment variables:
   AWS_ACCESS_KEY_ID           Your access key ID (REQUIRED)
   AWS_ACCESS_SECRET_KEY       Your access key (REQUIRED)
   AWS_DEFAULT_REGION          AWS region for your instance
+  AWS_AMI                     AWS AMI for your instance
   AWS_INSTANCE_TYPE           AWS instance type
   AWS_VPC_ID                  AWS VPC
   AWS_SPOT_PRICE              Spot price
